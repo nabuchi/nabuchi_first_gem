@@ -1,5 +1,7 @@
 require "nabuchi_first_gem/version"
 
 module NabuchiFirstGem
-  # Your code goes here...
+  def self.hello
+    puts 'hello'
+  end
 end
